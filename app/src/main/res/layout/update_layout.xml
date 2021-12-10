@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FBFFE2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật chi tiêu"
+            android:textColor="#064635"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item"
+            android:textSize="20sp"
+            android:textColor="#064635"
+            android:id="@+id/item"/>
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập số tiền"
+            android:textColor="#064635"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập ghi chú"
+            android:textColor="#064635"
+            android:id="@+id/note"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#EDEDED"
+                    android:text="Xóa"
+                    android:textAllCaps="false"
+                    android:textColor="#064635"
+                    android:textStyle="bold"
+                    android:textSize="17dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/update"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cập nhật"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:background="#064635"
+                    android:layout_margin="2dp"
+                    android:textSize="17dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

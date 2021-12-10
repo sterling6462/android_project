@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBFFE2"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoshi Budget"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:textColor="#064635"
+            android:gravity="center"
+            android:textSize="40dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:src="@drawable/team"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+        <Button
+            android:id="@+id/LoginWithEmail"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Đăng nhập với Google"
+            android:backgroundTint="#064635"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "409057008252",
+    "firebase_url": "https://ltdd-spend-tracker-default-rtdb.firebaseio.com",
+    "project_id": "ltdd-spend-tracker",
+    "storage_bucket": "ltdd-spend-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409057008252:android:953cbcba8ec2e5ae5087f9",
+        "android_client_info": {
+          "package_name": "com.willteksoftwares.dailyspendtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409057008252-h0ipnqm06f0e68aenobkrduia2nr5g9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.willteksoftwares.dailyspendtracker",
+            "certificate_hash": "406c7849074b1c14bef1ba35b2449c54de783eca"
+          }
+        },
+        {
+          "client_id": "409057008252-91togbosogeav3gv55p3isdrbmfnllb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6v1zujoJkp2rSMUg4XLPkudzFhvmlIJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409057008252-91togbosogeav3gv55p3isdrbmfnllb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
