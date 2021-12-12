@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Hoshi Budget");
 
+
         amountTxtview = findViewById(R.id.totalAmountSpentTv);
 
         fab = findViewById(R.id.fab);

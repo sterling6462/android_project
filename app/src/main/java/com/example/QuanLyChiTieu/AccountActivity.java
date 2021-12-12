@@ -40,7 +40,9 @@ public class AccountActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Thông tin cá nhân");
+        getSupportActionBar().setTitle("Thông tin tài khoản");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         logedInOn = findViewById(R.id.logedInOn);
         name = findViewById(R.id.name);
         email = findViewById(R.id.email);
@@ -68,6 +70,7 @@ public class AccountActivity extends AppCompatActivity {
 
             }
         });
+
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override

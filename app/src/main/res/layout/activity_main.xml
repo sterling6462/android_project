@@ -18,7 +18,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#F0BB62"
-            android:elevation="4dp"/>
+            android:elevation="4dp"
+            app:titleTextColor="#064635"
+            />
 
 
         <TextView

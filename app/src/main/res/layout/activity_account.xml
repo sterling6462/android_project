@@ -13,7 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#F0BB62"
-        android:elevation="4dp"/>
+        android:elevation="4dp"
+        app:titleTextColor="#064635"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,7 +31,7 @@
         android:id="@+id/logedInOn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tài khoản đã đăng nhập: "
+        android:text="Thời gian "
         android:textColor="#064635"
         android:textSize="17sp"
         android:textStyle="bold"
@@ -48,12 +50,15 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
         android:text="Tên"
-        android:textColor="#064635"
+        android:textColor="#F44336"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:gravity="center"
-        android:layout_margin="10dp"/>
+
+        />
 
     <TextView
         android:id="@+id/email"
