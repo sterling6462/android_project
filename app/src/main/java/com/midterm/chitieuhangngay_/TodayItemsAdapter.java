@@ -1,5 +1,4 @@
-package com.example.QuanLyChiTieu;
-
+package com.midterm.chitieuhangngay_;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -55,18 +54,29 @@ public class TodayItemsAdapter extends RecyclerView.Adapter<TodayItemsAdapter.Vi
         holder.date.setText("Ngày: "+data.getDate());
         holder.notes.setText("Ghi chú: "+data.getNotes());
 
-
         switch (data.getItem()){
-            case "Transport":
+            case "Di chuyển":
                 holder.imageView.setImageResource(R.drawable.transport);
                 break;
-            case "Food":
+            case "Thức ăn":
                 holder.imageView.setImageResource(R.drawable.food);
                 break;
-            case "Entertainment":
+            case "Giải trí":
                 holder.imageView.setImageResource(R.drawable.entertaiment);
                 break;
-            case "Other":
+            case "Gia đình":
+                holder.imageView.setImageResource(R.drawable.house);
+                break;
+            case "Học tập":
+                holder.imageView.setImageResource(R.drawable.education);
+                break;
+            case "Bạn bè, người yêu":
+                holder.imageView.setImageResource(R.drawable.friends);
+                break;
+            case "Hóa đơn":
+                holder.imageView.setImageResource(R.drawable.bill);
+                break;
+            case "Others":
                 holder.imageView.setImageResource(R.drawable.others);
                 break;
             default:
@@ -182,6 +192,7 @@ public class TodayItemsAdapter extends RecyclerView.Adapter<TodayItemsAdapter.Vi
             date = itemView.findViewById(R.id.date);
             notes  = itemView.findViewById(R.id.note);
             imageView = itemView.findViewById(R.id.imageView);
+
         }
     }
 }

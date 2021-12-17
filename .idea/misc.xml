@@ -3,32 +3,43 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Money-Usage-Tracker-App-master/app/src/main/res/layout/activity_account.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Money-Usage-Tracker-App-master/app/src/main/res/layout/activity_login.xml" value="0.2586050724637681" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Money-Usage-Tracker-App-master/app/src/main/res/layout/activity_main.xml" value="0.2586050724637681" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Money-Usage-Tracker-App-master/app/src/main/res/layout/input_layout.xml" value="0.2586050724637681" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Money-Usage-Tracker-App-master/app/src/main/res/layout/retrieve_layout.xml" value="0.2586050724637681" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Money-Usage-Tracker-App-master/app/src/main/res/layout/update_layout.xml" value="0.2586050724637681" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2755208333333333" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_add.xml" value="0.2712820512820513" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_entertainment.xml" value="0.1" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_food.xml" value="0.1" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_house.xml" value="0.2755208333333333" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2755208333333333" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_more.xml" value="0.2755208333333333" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_other.xml" value="0.2755208333333333" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_person_account.xml" value="0.2755208333333333" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/drawable/ic_transport.xml" value="0.2755208333333333" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/layout/activity_account.xml" value="0.259375" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/layout/activity_main.xml" value="0.259375" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/layout/input_layout.xml" value="0.2" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/layout/retrieve_layout.xml" value="0.264" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/nhap_ltdd/QuanLyChiTieu_Hoshi/app/src/main/res/layout/update_layout.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.15670289855072464" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_entertainment.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_person.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/drawable/border.xml" value="0.2203125" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/layout/activity_account.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/layout/activity_registration.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/layout/input_layout.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/layout/retrieve_layout.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/layout/update_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ADMIN/lt android/ChiTieuHangNgay_/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_entertainment.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_food.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_house.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_other.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_person_account.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable-v24/ic_transport.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable/ic_money_logo.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/drawable/ic_person_1.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/font/aguafina_script.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/font/bangers.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/activity_account.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/activity_registration.xml" value="0.176" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/input_layout.xml" value="0.136" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/retrieve_layout.xml" value="0.16184971098265896" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/layout/update_layout.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ChiTieuHangNgay_/app/src/main/res/menu/menu.xml" value="0.13333333333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

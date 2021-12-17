@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:elevation="10dp"
     app:cardElevation="10dp"
     android:layout_margin="10dp"
-    android:orientation="vertical"
     android:backgroundTint="#FBFFE2"
-    android:layout_height="match_parent">
+    android:background="#FBFFE2"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="10dp"
-        >
+        android:layout_margin="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -29,7 +30,7 @@
                 android:textColor="#064635"
                 android:textStyle="bold"
                 android:layout_margin="5dp"
-                android:textSize="20sp"/>
+                android:textSize="18sp"/>
 
         </LinearLayout>
 
@@ -40,13 +41,10 @@
 
             <Spinner
                 android:id="@+id/spinner"
-                android:gravity="center"
-                android:background="#519259"
-                android:entries="@array/items"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scrollbarSize="17dp"
-                />
+                android:background="#519259"
+                android:entries="@array/items"/>
 
             <EditText
                 android:id="@+id/amount"
@@ -54,9 +52,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Nhập số tiền"
                 android:textColor="#519259"
-                android:inputType="number"
                 android:textColorHint="#064635"
-                android:textSize="17dp"/>
+                android:inputType="number"/>
 
             <EditText
                 android:id="@+id/note"
@@ -64,40 +61,38 @@
                 android:layout_height="wrap_content"
                 android:hint="Nhập ghi chú"
                 android:textColor="#519259"
-                android:textColorHint="#064635"
-                android:textSize="17dp"/>
+                android:textColorHint="#064635"/>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
-                <Button
-                    android:id="@+id/cancel"
-                    android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="Hủy"
-                    android:textAllCaps="false"
-                    android:textColor="#064635"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:layout_margin="2dp"
-                    />
-            </RelativeLayout>
+                    android:layout_weight="1">
 
-            <RelativeLayout
+                    <Button
+                        android:id="@+id/cancelbt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hủy"
+                        android:textAllCaps="false"
+                        android:textColor="#064635"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_margin="2dp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
                 <Button
-                    android:id="@+id/save"
+                    android:id="@+id/savebt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
@@ -110,13 +105,14 @@
                     android:textColor="#ffffff"
                     android:textSize="20dp"
                     android:textStyle="bold" />
+
             </RelativeLayout>
+
+            </LinearLayout>
+
+
         </LinearLayout>
 
     </LinearLayout>
-
-
-
-
 
 </androidx.cardview.widget.CardView>

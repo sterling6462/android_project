@@ -1,11 +1,15 @@
 <resources>
-    <string name="app_name">Daily Spend Tracker</string>
+    <string name="app_name">Hoshi Budget</string>
 
     <string-array name="items">
-        <item>select item</item>
-        <item>Transport</item>
-        <item>Food</item>
-        <item>Entertainment</item>
-        <item>Other</item>
+        <item>Chọn nhóm nhé</item>
+        <item>Di chuyển</item>
+        <item>Thức ăn</item>
+        <item>Giải trí</item>
+        <item>Gia đình</item>
+        <item>Học tập</item>
+        <item>Bạn bè, người yêu</item>
+        <item>Hóa đơn</item>
+        <item>Khác</item>
     </string-array>
 </resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFFE2"
+    tools:context=".SplashScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng bạn đến với Ứng dụng quản lý chi tiêu"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:textColor="#05AF9F"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="25dp"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="260dp"
+            android:layout_height="265dp"
+            android:src="@drawable/logo_app"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoshi Budget"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+             />
+
+    </LinearLayout>
+</LinearLayout>

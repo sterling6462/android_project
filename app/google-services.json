@@ -1,42 +1,41 @@
 {
   "project_info": {
-    "project_number": "409057008252",
-    "firebase_url": "https://ltdd-spend-tracker-default-rtdb.firebaseio.com",
-    "project_id": "ltdd-spend-tracker",
-    "storage_bucket": "ltdd-spend-tracker.appspot.com"
+    "project_number": "597013356431",
+    "project_id": "cthn-app",
+    "storage_bucket": "cthn-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:409057008252:android:953cbcba8ec2e5ae5087f9",
+        "mobilesdk_app_id": "1:597013356431:android:043fff33995874e32135fa",
         "android_client_info": {
-          "package_name": "com.willteksoftwares.dailyspendtracker"
+          "package_name": "com.midterm.chitieuhangngay_"
         }
       },
       "oauth_client": [
         {
-          "client_id": "409057008252-h0ipnqm06f0e68aenobkrduia2nr5g9c.apps.googleusercontent.com",
+          "client_id": "597013356431-ff31p7hem6po4a166vrvgib3ar42u50s.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.willteksoftwares.dailyspendtracker",
-            "certificate_hash": "406c7849074b1c14bef1ba35b2449c54de783eca"
+            "package_name": "com.midterm.chitieuhangngay_",
+            "certificate_hash": "e61f2dba59b6820ebb5871db8a490611eac76b80"
           }
         },
         {
-          "client_id": "409057008252-91togbosogeav3gv55p3isdrbmfnllb1.apps.googleusercontent.com",
+          "client_id": "597013356431-cuf6cu2j469lv0budu9cq6vraen6lnc2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD6v1zujoJkp2rSMUg4XLPkudzFhvmlIJg"
+          "current_key": "AIzaSyBp0AfMrML553NiZF73EXRGGgY3JBqbeWw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "409057008252-91togbosogeav3gv55p3isdrbmfnllb1.apps.googleusercontent.com",
+              "client_id": "597013356431-cuf6cu2j469lv0budu9cq6vraen6lnc2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

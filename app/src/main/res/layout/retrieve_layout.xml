@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:elevation="10dp"
     app:cardElevation="10dp"
-    android:layout_margin="10dp"
     android:background="#FBFFE2"
     android:backgroundTint="#94CC96"
-    android:layout_height="wrap_content">
+    android:layout_margin="10dp"
+    android:layout_marginLeft="15dp">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
+
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="250dp"
-            android:orientation="vertical"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            >
+            android:orientation="vertical"
+            android:layout_margin="10dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -28,35 +29,35 @@
                 android:text="Nhóm"
                 android:textColor="#064635"
                 android:textStyle="bold"
-                android:textSize="18sp"
+                android:textSize="18dp"
                 android:id="@+id/item"/>
 
             <TextView
-                android:id="@+id/amount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text=" 0  VND"
                 android:textStyle="bold"
                 android:textColor="#F44336"
-
-                />
-
+                android:id="@+id/amount"/>
             <TextView
-                android:id="@+id/note"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
                 android:text="Ghi chú"
-                android:textColor="#519259"/>
+                android:textColor="#519259"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/note"/>
 
             <TextView
-                android:id="@+id/date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
+                android:textSize="16dp"
                 android:text="Ngày"
-                android:textColor="#519259"/>
+                android:textColor="#519259"
+                android:textStyle="bold"
+                android:id="@+id/date"/>
+
         </LinearLayout>
 
         <ImageView
@@ -68,7 +69,6 @@
             android:layout_marginBottom="20dp"
             android:layout_toEndOf="@id/linearLayout"
             android:src="@drawable/house" />
-
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

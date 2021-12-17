@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.QuanLyChiTieu">
+    package="com.midterm.chitieuhangngay_">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo_app"
-        android:label="Hoshi Budget"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        //them activity cha de su dung nut back trong toolbar
-        <activity android:name="com.example.QuanLyChiTieu.AccountActivity"
-            android:parentActivityName=".MainActivity"
+        android:theme="@style/Theme.ChiTieuHangNgay_">
+        <activity
+            android:name="com.midterm.chitieuhangngay_.AccountActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.midterm.chitieuhangngay_.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.midterm.chitieuhangngay_.RegistrationActivity"
+            android:exported="true" />
+        <activity android:name="com.midterm.chitieuhangngay_.LoginActivity"
+            android:exported="true"
             ></activity>
-        <activity android:name="com.example.QuanLyChiTieu.MainActivity" />
-        <activity android:name="com.example.QuanLyChiTieu.LoginActivity">
+        <activity
+            android:name="com.midterm.chitieuhangngay_.SplashScreenActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

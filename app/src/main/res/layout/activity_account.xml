@@ -9,78 +9,99 @@
     tools:context=".AccountActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?attr/actionBarSize"
         android:background="#F0BB62"
-        android:elevation="4dp"
         app:titleTextColor="#064635"
-        />
+        android:id="@+id/my_Feed_Toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp">
+    </androidx.appcompat.widget.Toolbar>
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thông tin tài khoản"
-        android:textColor="#064635"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_margin="10dp"/>
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
 
-    <TextView
-        android:id="@+id/logedInOn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thời gian "
-        android:textColor="#064635"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_margin="10dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile"
+            android:layout_margin="10dp"
+            android:layout_marginTop="3dp"/>
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/profile_image"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:src="@drawable/profile"
-        android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin tài khoản"
+            android:textColor="#064635"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            />
 
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
-        android:text="Tên"
-        android:textColor="#F44336"
-        android:textSize="20sp"
-        android:textStyle="bold"
+<!--        <TextView-->
+<!--            android:id="@+id/logedInOn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Thời gian "-->
+<!--            android:textColor="#064635"-->
+<!--            android:textSize="17sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="10dp"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/name"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Tên"-->
+<!--            android:textColor="#F44336"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
 
-        />
+<!--            />-->
 
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        android:textColor="#064635"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_margin="10dp"/>
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="2dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:background="#064635" />-->
 
-    <Button
-        android:id="@+id/logoutBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Đăng xuất"
-        android:textAllCaps="false"
-        android:background="#064635"
-        android:textColor="#ffffff"
-        android:textSize="20sp"
-        android:layout_margin="20dp"/>
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20dp"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="#064635"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
 
 
 

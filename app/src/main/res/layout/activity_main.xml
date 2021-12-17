@@ -4,30 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    tools:context=".MainActivity"
     android:background="#FBFFE2"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#F0BB62"
             android:elevation="4dp"
-            app:titleTextColor="#064635"
-            />
-
+            app:titleTextColor="#064635"/>
 
         <TextView
-            android:id="@+id/totalAmountSpentTv"
+            android:id="@+id/todayspending"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chi tiêu hôm nay: 0 VND"
+            android:text="Tổng chi tiêu: 0 VNĐ"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#064635"
@@ -37,20 +35,26 @@
         <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/fab"
                 android:layout_gravity="bottom|end"
                 android:layout_margin="16dp"
+                android:backgroundTint="#519259"
+                app:fabSize="normal"
                 android:src="@drawable/ic_add"
-                app:backgroundTint="#519259"
-                app:fabSize="normal" />
+                android:tint="@color/white"/>
+
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
     </LinearLayout>
+
 </LinearLayout>
